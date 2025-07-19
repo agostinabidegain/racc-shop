@@ -1,63 +1,29 @@
-<<<<<<< HEAD
-# Racc
+# Racc Shop 
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
+Este proyecto es parte del seminario de Angular y representa la tienda online de **Racc Shop**, mi emprendimiento de collares 100% handmade ubicado en Tandil, Buenos Aires.
 
-## Development server
+## ¿Qué es Racc Shop?
 
-To start a local development server, run:
+Racc Shop es un espacio donde diseño y creo collares únicos, hechos con materiales seleccionados propiamente. En esta "tienda online" pueden ver algunos de los productos disponibles, y elegir la cantidad deseada para gestionar una compra.
 
-```bash
-ng serve
-```
+## Tecnologías utilizadas
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Angular** (framework principal)
+- **TypeScript**
+- **Bootstrap** (estilos y responsive)
+- **HTML + SCSS**
 
-## Code scaffolding
+## Funcionalidades
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Visualización de productos disponibles (collares)
+- Control de stock y cantidad
+- Componentes reutilizables
+- Estilos responsive con Bootstrap
 
-```bash
-ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Sobre mí
 
-```bash
-ng generate --help
-```
+- Nombre y apellido: Agostina Harkes
+- DNI: 46.185.819
+- Sin nro. de legajo.
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# racc-shop
->>>>>>> c8497abe0cdf5c79781f7927427acd27dc2f33c6
