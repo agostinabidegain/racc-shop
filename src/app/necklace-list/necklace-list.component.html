@@ -1,0 +1,28 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Color</th>
+      <th>Price</th>
+      <th>Stock</th>
+      <th>Buy</th>
+      <th>Shop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let necklace of necklaces" [ngClass]="{'clearance' : necklace.clearance}">
+      <td><img [src]="necklace?.image" [alt]="necklace.name" width="100" class="img-thumbnail"></td>
+      <td>{{necklace.name}}</td>
+      <td>{{necklace.color}}</td>
+      <td>{{necklace.price | currency}}</td>
+      <td><span class="badge text-bg-danger" *ngIf="necklace.stock==0">SIN STOCK</span></td>
+      <td>
+        <app-input-integer [(quantity)]="necklace.quantity" [max]="necklace.stock" (maxReached)="maxReached($event)" *ngIf="necklace.stock"></app-input-integer>
+      </td>
+      <td>
+        <button class="btn my-btn-properties" (click)="addToCart(necklace)">Comprar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

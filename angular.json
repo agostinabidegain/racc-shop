@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "racc": {
+    "burger_app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/racc",
+            "outputPath": "dist/burger_app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -33,6 +33,8 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              "src/favicon.ico",
+              "src/assets",
               {
                 "glob": "**/*",
                 "input": "public"
@@ -41,12 +43,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "outputMode": "server",
-            "ssr": {
-              "entry": "src/server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -76,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "racc:build:production"
+              "buildTarget": "burger_app:build:production"
             },
             "development": {
-              "buildTarget": "racc:build:development"
+              "buildTarget": "burger_app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -97,6 +94,8 @@
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              "src/favicon.ico",
+              "src/assets",
               {
                 "glob": "**/*",
                 "input": "public"
@@ -110,5 +109,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "818ede39-2751-42c8-8237-e307cc2bdccd"
   }
 }
