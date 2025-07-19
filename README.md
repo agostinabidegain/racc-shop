@@ -26,4 +26,6 @@ Racc Shop es un espacio donde diseño y creo collares únicos, hechos con materi
 - Nombre y apellido: Agostina Harkes
 - DNI: 46.185.819
 - Sin nro. de legajo.
+- Email: agostinabidegain@gmail.com
+- Sede: Tandil
 
